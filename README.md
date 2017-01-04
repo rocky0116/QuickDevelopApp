@@ -6,9 +6,6 @@
 <img src="/Image/QQ图片20170104195319.jpg"/>
 <img src="/Image/QQ图片20170104195345.jpg"/>
 <img src="/Image/QQ图片20170104195325.jpg"/>
-#https://github.com/rocky0116/QuickDevelopApp/Image/QQ图片20170104195319.jpg
-#https://github.com/rocky0116/QuickDevelopApp/Image/QQ图片20170104195345.jpg
-#https://github.com/rocky0116/QuickDevelopApp/Image/QQ图片20170104195325.jpg
 
 (1)、对android api的封装，使其调用更方便(一些公共属性组件如：存储，sdcard，intent，网络)
 	
