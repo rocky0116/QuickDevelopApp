@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">A-Q-D-F</string>
+    <string name="txt_home">首页</string>
+    <string name="txt_service">服务</string>
+    <string name="txt_discover">发现</string>
+    <string name="txt_my">我的</string>
+
+    <string name="moments">朋友圈</string>
+    <string name="scan">扫一扫</string>
+    <string name="shake2">摇一摇</string>
+    <string name="people_nearby">附近的人</string>
+    <string name="drift_bottle">漂流瓶</string>
+    <string name="shopping">购物</string>
+    <string name="games">游戏</string>
+    <string name="fav">收藏</string>
+    <string name="card">卡包</string>
+    <string name="txt_fav">收藏</string>
+    <string name="txt_card">卡包</string>
+    <string name="txt_setting">设置</string>
+    <string name="q_email">wangzhong0116@foxmail.com</string>
+    <string name="personal_description">个人说明</string>
+    <string name="personal_home_page">http://blog.csdn.net/MINGZHNGLEI</string>
+    <string name="github_page">https://github.com/rocky0116</string>
+    <string name="jump_guide"><![CDATA[跳过 >]]></string>
+    <string name="go_main_page">进入主界面</string>
+    <string name="txt_loading">载入中...</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="ProgressDialogStyle" parent="@style/ProgressDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="base_SwipeBackLayout">
+        <item name="base_edge_size">50dip</item>
+        <item name="base_shadow_left">@drawable/base_shadow_left</item>
+        <item name="base_shadow_right">@drawable/base_shadow_right</item>
+        <item name="base_shadow_bottom">@drawable/base_shadow_bottom</item>
+    </style>
+
+</resources>

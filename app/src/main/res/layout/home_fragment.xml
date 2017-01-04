@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.sxwz.qcodelib.banner.BGABanner
+        android:id="@+id/banner_main_rotate"
+        style="@style/BannerDefaultStyle"
+        app:banner_pointDrawable="@drawable/selector_banner_point"
+        app:banner_transitionEffect="rotate" />
+
+    <com.sxwz.qcodelib.widget.RefreshView
+        android:id="@+id/refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eeeeee" />
+    </com.sxwz.qcodelib.widget.RefreshView>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_color"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/title_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2E3132">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btn_bg_gray"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <RelativeLayout
+                android:id="@+id/view_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <ImageView
+                    android:id="@+id/head"
+                    android:layout_width="60.0dip"
+                    android:layout_height="60.0dip"
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/tvname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/head"
+                    android:text="fly"
+                    android:textColor="@color/main_gray"
+                    android:textSize="18.0dip" />
+
+                <TextView
+                    android:id="@+id/tvmsg"
+                    style="@style/txt_ContextStyle1"
+                    android:layout_below="@+id/tvname"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/head"
+                    android:text="微信号：wz81339964"
+                    android:textColor="@color/main_gray"
+                    android:textSize="14.0dip" />
+
+                <ImageView
+                    android:id="@+id/iv_sex"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_toRightOf="@+id/tvname"
+                    android:src="@mipmap/ic_sex_female" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/img_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/default_image" />
+
+            <TextView
+                style="@style/txt_ContextStyle1"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/main_gray"
+                android:text="扫一扫上面的二维码图案，加我微信"
+                android:textSize="14.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
