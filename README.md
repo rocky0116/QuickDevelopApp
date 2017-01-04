@@ -1,7 +1,8 @@
- Android Quick Developer Framework
+                                                Android Quick Developer Framework
     (Android 快速开发框架————————致力于让Android开发更简单)
-	
-	(1)、对android api的封装，使其调用更方便(一些公共属性组件如：存储，sdcard，intent，网络)
+	在此非常感谢github的一些大神们，给了我很多帮助，同时也参考了很多大神的代码，在平时的运用中总结
+  开源才能让我们共同进步，欢迎大家fork，如果有不到位的地方，还希望大家给与建议和帮助。
+(1)、对android api的封装，使其调用更方便(一些公共属性组件如：存储，sdcard，intent，网络)
 	
 	(2)、基类的封装（如：Activity，Fragment,ListView-Adapter,RecycleView-Adapter,PullUp-Adapter）
 	
