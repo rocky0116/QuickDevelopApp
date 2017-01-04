@@ -2,7 +2,10 @@
     (Android 快速开发框架————————致力于让Android开发更简单)
 	在此非常感谢github的一些大神们，给了我很多帮助，同时也参考了很多大神的代码，在平时的运用中总结
   开源才能让我们共同进步，欢迎大家fork，如果有不到位的地方，还希望大家给与建议和帮助。
-截图
+### 效果图
+<img src="/Image/QQ图片20170104195319.jpg"/>
+<img src="/Image/QQ图片20170104195345.jpg"/>
+<img src="/Image/QQ图片20170104195325.jpg"/>
 #https://github.com/rocky0116/QuickDevelopApp/Image/QQ图片20170104195319.jpg
 #https://github.com/rocky0116/QuickDevelopApp/Image/QQ图片20170104195345.jpg
 #https://github.com/rocky0116/QuickDevelopApp/Image/QQ图片20170104195325.jpg
