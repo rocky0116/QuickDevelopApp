@@ -3,6 +3,20 @@
          欢迎大家进群：574605026   开启我们的开发之旅	
 	 在此非常感谢github的一些大神们，给了我很多帮助，同时也参考了很多大神的代码，在平时的运用中总结
   开源才能让我们共同进步，欢迎大家fork，如果有不到位的地方，还希望大家给与建议和帮助。此框架持续更新中......
+  
+  代码已提交到JCenter  可以说是android studio用户的福音
+
+  <div style="font-size:18pt,color:red">对于Android Studio的用户，可以选择添加:
+
+	compile 'com.sxwz.qcodelib:qcodelib:1.0.1'
+
+   或者
+
+       compile 'com.sxwz.qcodelib:qcodelib:+'
+
+直接使用，不用再去导入lib文件那么麻烦，可谓真是方便不少，建议大家去使用android studio
+<div>
+  
 ### 效果图
 <img src="/Image/QQ图片20170104195319.jpg"/>
 <img src="/Image/QQ图片20170104195345.jpg"/>
