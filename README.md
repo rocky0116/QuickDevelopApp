@@ -6,16 +6,16 @@
   
   代码已提交到JCenter  可以说是android studio用户的福音
 
-  <div style="font-size:18pt,color:red">对于Android Studio的用户，可以选择添加:
+  ###对于Android Studio的用户，可以选择添加:
 
 	compile 'com.sxwz.qcodelib:qcodelib:1.0.1'
 
-   或者
+   ###或者
 
        compile 'com.sxwz.qcodelib:qcodelib:+'
 
 直接使用，不用再去导入lib文件那么麻烦，可谓真是方便不少，建议大家去使用android studio
-<div>
+
   
 ### 效果图
 <img src="/Image/QQ图片20170104195319.jpg"/>
