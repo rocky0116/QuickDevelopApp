@@ -6,11 +6,11 @@
   
   代码已提交到JCenter  可以说是android studio用户的福音
 
-  ###对于Android Studio的用户，可以选择添加:
+  ### 对于Android Studio的用户，可以选择添加:
 
 	compile 'com.sxwz.qcodelib:qcodelib:1.0.1'
 
-   ###或者
+   ### 或者
 
        compile 'com.sxwz.qcodelib:qcodelib:+'
 
